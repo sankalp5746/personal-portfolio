@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background: #0a0909;
+  background: #ffffff;
 }
 
 #page {
@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #1C8A0E;
+  color: #871c9d;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #1C8A0E;
+  color: #871c9d;
   outline: none;
   text-decoration: none;
 }
@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #ffffff;
+  color: #000000;
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #1C8A0E;
+  background: #871c9d;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #1C8A0E;
+  background: #871c9d;
 }
 
 ::selection {
   color: #fff;
-  background: #1C8A0E;
+  background: #871c9d;
 }
 
 #fh5co-header,
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(5, 143, 3, 0.9);
+  background: rgba(109, 4, 127, 0.9);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #1C8A0E;
+  background: #871c9d;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .feature-left p {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 #fh5co-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -308,10 +308,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #249402;
+  background: #871c9d;
 }
-.fh5co-bg-dark .fh5co-heading h2 {
+.fh5co-bg-dark {
   color: #fff !important;
+}
+.fh5co-heading h2 {
+  color: #000000 !important;
 }
 
 .info {
@@ -338,13 +341,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #fffefe;
+  color: #000000;
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: #fffefe;
+  color: #000000;
 }
 
 .fh5co-social-icons {
@@ -365,7 +368,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #1C8A0E;
+  color: #871c9d;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -402,7 +405,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #1C8A0E;
+  background: #871c9d;
 }
 
 .fh5co-heading {
@@ -467,7 +470,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #0A0909;
+  background: #ffffff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -532,7 +535,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #1C8A0E;
+  background-color: #871c9d;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -756,7 +759,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    background: white;
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
@@ -795,13 +798,13 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
 }
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #1C8A0E;
+  color: #871c9d;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1111,9 +1114,9 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #1C8A0E;
+  background: #871c9d;
   color: #fff;
-  border: 2px solid #1C8A0E;
+  border: 2px solid #871c9d;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ff9b1a !important;
@@ -1121,11 +1124,11 @@ input[type="text"] {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #1C8A0E;
-  border: 2px solid #1C8A0E;
+  color: #871c9d;
+  border: 2px solid #871c9d;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #1C8A0E;
+  background: #871c9d;
   color: #fff;
 }
 
@@ -1255,7 +1258,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #1C8A0E;
+  border-color: #871c9d;
 }
 
 .row-pb-md {
